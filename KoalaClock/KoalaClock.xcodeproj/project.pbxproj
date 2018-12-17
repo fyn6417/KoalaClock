@@ -1,0 +1,421 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		34911F38C886CBA9FFB13702 /* libPods-KoalaClock.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 789CE4AE646C2BAECD653E85 /* libPods-KoalaClock.a */; };
+		A54CF7C921AE4420006EA470 /* PS4Pro.png in Resources */ = {isa = PBXBuildFile; fileRef = A54CF7C821AE441F006EA470 /* PS4Pro.png */; };
+		A5AE51D221AD7E9400DA88F0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A5AE51D121AD7E9400DA88F0 /* AppDelegate.m */; };
+		A5AE51D521AD7E9400DA88F0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5AE51D421AD7E9400DA88F0 /* ViewController.m */; };
+		A5AE51DA21AD7E9800DA88F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5AE51D921AD7E9800DA88F0 /* Assets.xcassets */; };
+		A5AE51DD21AD7E9800DA88F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5AE51DB21AD7E9800DA88F0 /* LaunchScreen.storyboard */; };
+		A5AE51E021AD7E9800DA88F0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A5AE51DF21AD7E9800DA88F0 /* main.m */; };
+		A5AE51E821AD843700DA88F0 /* FFUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = A5AE51E721AD843700DA88F0 /* FFUtil.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0F6DF6BF70C843A1FAE3F270 /* Pods-KoalaClock.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KoalaClock.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KoalaClock/Pods-KoalaClock.debug.xcconfig"; sourceTree = "<group>"; };
+		10C84BCBBD64DC8DA27DCA9D /* Pods-KoalaClock.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KoalaClock.release.xcconfig"; path = "Pods/Target Support Files/Pods-KoalaClock/Pods-KoalaClock.release.xcconfig"; sourceTree = "<group>"; };
+		789CE4AE646C2BAECD653E85 /* libPods-KoalaClock.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KoalaClock.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A54CF7C821AE441F006EA470 /* PS4Pro.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PS4Pro.png; sourceTree = "<group>"; };
+		A5AE51CD21AD7E9400DA88F0 /* KoalaClock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KoalaClock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5AE51D021AD7E9400DA88F0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A5AE51D121AD7E9400DA88F0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A5AE51D321AD7E9400DA88F0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A5AE51D421AD7E9400DA88F0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A5AE51D921AD7E9800DA88F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A5AE51DC21AD7E9800DA88F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A5AE51DE21AD7E9800DA88F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5AE51DF21AD7E9800DA88F0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A5AE51E621AD843700DA88F0 /* FFUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FFUtil.h; sourceTree = "<group>"; };
+		A5AE51E721AD843700DA88F0 /* FFUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FFUtil.m; sourceTree = "<group>"; };
+		A5AE51E921AD852D00DA88F0 /* FFMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FFMacros.h; sourceTree = "<group>"; };
+		A5CCB2FA21AFE43500AC2086 /* RevealServer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RevealServer.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A5AE51CA21AD7E9400DA88F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34911F38C886CBA9FFB13702 /* libPods-KoalaClock.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		53FFA8C4193E10C3F6DB9A56 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0F6DF6BF70C843A1FAE3F270 /* Pods-KoalaClock.debug.xcconfig */,
+				10C84BCBBD64DC8DA27DCA9D /* Pods-KoalaClock.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A5AE51C421AD7E9400DA88F0 = {
+			isa = PBXGroup;
+			children = (
+				A54CF7C821AE441F006EA470 /* PS4Pro.png */,
+				A5AE51CF21AD7E9400DA88F0 /* KoalaClock */,
+				A5AE51CE21AD7E9400DA88F0 /* Products */,
+				53FFA8C4193E10C3F6DB9A56 /* Pods */,
+				B4BB329D3D96E52C1F8BC10F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A5AE51CE21AD7E9400DA88F0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A5AE51CD21AD7E9400DA88F0 /* KoalaClock.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A5AE51CF21AD7E9400DA88F0 /* KoalaClock */ = {
+			isa = PBXGroup;
+			children = (
+				A5AE51D021AD7E9400DA88F0 /* AppDelegate.h */,
+				A5AE51D121AD7E9400DA88F0 /* AppDelegate.m */,
+				A5AE51D321AD7E9400DA88F0 /* ViewController.h */,
+				A5AE51D421AD7E9400DA88F0 /* ViewController.m */,
+				A5AE51D921AD7E9800DA88F0 /* Assets.xcassets */,
+				A5AE51DB21AD7E9800DA88F0 /* LaunchScreen.storyboard */,
+				A5AE51DE21AD7E9800DA88F0 /* Info.plist */,
+				A5AE51DF21AD7E9800DA88F0 /* main.m */,
+				A5AE51E621AD843700DA88F0 /* FFUtil.h */,
+				A5AE51E721AD843700DA88F0 /* FFUtil.m */,
+				A5AE51E921AD852D00DA88F0 /* FFMacros.h */,
+			);
+			path = KoalaClock;
+			sourceTree = "<group>";
+		};
+		B4BB329D3D96E52C1F8BC10F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A5CCB2FA21AFE43500AC2086 /* RevealServer.framework */,
+				789CE4AE646C2BAECD653E85 /* libPods-KoalaClock.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A5AE51CC21AD7E9400DA88F0 /* KoalaClock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5AE51E321AD7E9800DA88F0 /* Build configuration list for PBXNativeTarget "KoalaClock" */;
+			buildPhases = (
+				86E80BD68166585894BE3F32 /* [CP] Check Pods Manifest.lock */,
+				A5AE51C921AD7E9400DA88F0 /* Sources */,
+				A5AE51CA21AD7E9400DA88F0 /* Frameworks */,
+				A5AE51CB21AD7E9400DA88F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KoalaClock;
+			productName = KoalaClock;
+			productReference = A5AE51CD21AD7E9400DA88F0 /* KoalaClock.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A5AE51C521AD7E9400DA88F0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = ff;
+				TargetAttributes = {
+					A5AE51CC21AD7E9400DA88F0 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = A5AE51C821AD7E9400DA88F0 /* Build configuration list for PBXProject "KoalaClock" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A5AE51C421AD7E9400DA88F0;
+			productRefGroup = A5AE51CE21AD7E9400DA88F0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A5AE51CC21AD7E9400DA88F0 /* KoalaClock */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A5AE51CB21AD7E9400DA88F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5AE51DD21AD7E9800DA88F0 /* LaunchScreen.storyboard in Resources */,
+				A54CF7C921AE4420006EA470 /* PS4Pro.png in Resources */,
+				A5AE51DA21AD7E9800DA88F0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		86E80BD68166585894BE3F32 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 12;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KoalaClock-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n\n\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A5AE51C921AD7E9400DA88F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5AE51D521AD7E9400DA88F0 /* ViewController.m in Sources */,
+				A5AE51E821AD843700DA88F0 /* FFUtil.m in Sources */,
+				A5AE51E021AD7E9800DA88F0 /* main.m in Sources */,
+				A5AE51D221AD7E9400DA88F0 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A5AE51DB21AD7E9800DA88F0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5AE51DC21AD7E9800DA88F0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A5AE51E121AD7E9800DA88F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A5AE51E221AD7E9800DA88F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A5AE51E421AD7E9800DA88F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F6DF6BF70C843A1FAE3F270 /* Pods-KoalaClock.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XEDYSB743K;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = KoalaClock/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"Masonry\"",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"UIKit\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ff.KoalaClock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A5AE51E521AD7E9800DA88F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10C84BCBBD64DC8DA27DCA9D /* Pods-KoalaClock.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XEDYSB743K;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = KoalaClock/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"Masonry\"",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"UIKit\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ff.KoalaClock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A5AE51C821AD7E9400DA88F0 /* Build configuration list for PBXProject "KoalaClock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5AE51E121AD7E9800DA88F0 /* Debug */,
+				A5AE51E221AD7E9800DA88F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5AE51E321AD7E9800DA88F0 /* Build configuration list for PBXNativeTarget "KoalaClock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5AE51E421AD7E9800DA88F0 /* Debug */,
+				A5AE51E521AD7E9800DA88F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A5AE51C521AD7E9400DA88F0 /* Project object */;
+}
